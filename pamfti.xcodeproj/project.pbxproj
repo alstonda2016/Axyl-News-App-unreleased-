@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A98EC67A697629F43224667 /* Pods_pamfti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F663395024919BD3C6ABA0EB /* Pods_pamfti.framework */; };
+		630FA8A521A1521400442CC3 /* tabNewsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FA8A421A1521400442CC3 /* tabNewsCollectionViewCell.swift */; };
+		630FA8A721A1543300442CC3 /* topicObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FA8A621A1543300442CC3 /* topicObject.swift */; };
+		630FA8A921A1544200442CC3 /* articleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FA8A821A1544200442CC3 /* articleObject.swift */; };
+		630FD60321CE1EEA0078C30A /* logoV4.png in Resources */ = {isa = PBXBuildFile; fileRef = 630FD60221CE1EEA0078C30A /* logoV4.png */; };
 		632CDF2D21A0ADCC004E86B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632CDF2C21A0ADCC004E86B7 /* AppDelegate.swift */; };
 		632CDF2F21A0ADCC004E86B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632CDF2E21A0ADCC004E86B7 /* ViewController.swift */; };
 		632CDF3221A0ADCC004E86B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632CDF3021A0ADCC004E86B7 /* Main.storyboard */; };
@@ -14,6 +19,48 @@
 		632CDF3721A0ADCD004E86B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632CDF3521A0ADCD004E86B7 /* LaunchScreen.storyboard */; };
 		632CDF4221A0ADCD004E86B7 /* pamftiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632CDF4121A0ADCD004E86B7 /* pamftiTests.swift */; };
 		632CDF4D21A0ADCD004E86B7 /* pamftiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632CDF4C21A0ADCD004E86B7 /* pamftiUITests.swift */; };
+		632D1D3B21CA15DA00CFC514 /* createArticleSuggestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632D1D3A21CA15DA00CFC514 /* createArticleSuggestionViewController.swift */; };
+		6336534521A46DEA007E3608 /* articleCommentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336534421A46DEA007E3608 /* articleCommentCollectionViewCell.swift */; };
+		6336534721A471D7007E3608 /* topicChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336534621A471D7007E3608 /* topicChatViewController.swift */; };
+		6336534921A47422007E3608 /* topicChatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336534821A47422007E3608 /* topicChatCollectionViewCell.swift */; };
+		6336534B21A4770D007E3608 /* topicChatPostObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336534A21A4770D007E3608 /* topicChatPostObject.swift */; };
+		6336534D21A47767007E3608 /* postSpecDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336534C21A47767007E3608 /* postSpecDetails.swift */; };
+		6336534F21A478B5007E3608 /* chatCreatePopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336534E21A478B5007E3608 /* chatCreatePopoverViewController.swift */; };
+		6336535121A4E2B8007E3608 /* tabCategoryNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336535021A4E2B8007E3608 /* tabCategoryNewsViewController.swift */; };
+		6336535321A4E410007E3608 /* topicCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336535221A4E410007E3608 /* topicCategoryCollectionViewCell.swift */; };
+		6336535521A541CD007E3608 /* tabHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336535421A541CD007E3608 /* tabHome.swift */; };
+		6336535721A60F43007E3608 /* articleCommentNestedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336535621A60F43007E3608 /* articleCommentNestedCollectionViewCell.swift */; };
+		6336535B21A6213A007E3608 /* profileInboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336535A21A6213A007E3608 /* profileInboxViewController.swift */; };
+		6336535D21A6214E007E3608 /* profileHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336535C21A6214E007E3608 /* profileHistoryViewController.swift */; };
+		6336535F21A621CB007E3608 /* profileSettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336535E21A621CB007E3608 /* profileSettingsTableViewController.swift */; };
+		6336536121A6242A007E3608 /* profileInboxCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336536021A6242A007E3608 /* profileInboxCollectionViewCell.swift */; };
+		6336536321A62435007E3608 /* profileHistoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336536221A62435007E3608 /* profileHistoryCollectionViewCell.swift */; };
+		6336536521A624EE007E3608 /* historyArticleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336536421A624EE007E3608 /* historyArticleObject.swift */; };
+		6336536921A6C496007E3608 /* reviewedTopicObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336536821A6C496007E3608 /* reviewedTopicObject.swift */; };
+		6336536B21A6D6B2007E3608 /* reportChatObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336536A21A6D6B2007E3608 /* reportChatObject.swift */; };
+		6336536D21A7BC1F007E3608 /* profileInboxObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336536C21A7BC1F007E3608 /* profileInboxObject.swift */; };
+		6342F69D21A39303001FAD36 /* forumTopicsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6342F69C21A39303001FAD36 /* forumTopicsCollectionViewCell.swift */; };
+		6342F69F21A3942A001FAD36 /* forumChatObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6342F69E21A3942A001FAD36 /* forumChatObject.swift */; };
+		6342F6A121A3C709001FAD36 /* choosePostTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6342F6A021A3C709001FAD36 /* choosePostTypeViewController.swift */; };
+		6366146A21AF669C000C36E5 /* profileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6366146921AF669C000C36E5 /* profileCollectionViewCell.swift */; };
+		6366146C21AF69A0000C36E5 /* profileBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6366146B21AF69A0000C36E5 /* profileBtn.swift */; };
+		6388554421A9DC4C00F3A2CD /* webViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6388554321A9DC4C00F3A2CD /* webViewViewController.swift */; };
+		6398F89A21ABD3360002C4E1 /* Mark Simonson - Proxima Nova Alt Condensed Semibold-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6398F89921ABD3360002C4E1 /* Mark Simonson - Proxima Nova Alt Condensed Semibold-webfont.ttf */; };
+		6398F89C21ABDAEE0002C4E1 /* bookmarkedTopicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6398F89B21ABDAEE0002C4E1 /* bookmarkedTopicsViewController.swift */; };
+		6398F89E21AC9E940002C4E1 /* bookmarkedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6398F89D21AC9E940002C4E1 /* bookmarkedObject.swift */; };
+		6398F8A021ACA2BD0002C4E1 /* bookmarkedTopicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6398F89F21ACA2BD0002C4E1 /* bookmarkedTopicCollectionViewCell.swift */; };
+		63A36D9E21A0B0290026F1BF /* fbLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A36D9D21A0B0290026F1BF /* fbLoginViewController.swift */; };
+		63A36DA021A0B0600026F1BF /* tabNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A36D9F21A0B0600026F1BF /* tabNewsViewController.swift */; };
+		63A36DA421A0B0780026F1BF /* tabProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A36DA321A0B0780026F1BF /* tabProfileViewController.swift */; };
+		63BA12CB21A10D20004E4FE2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63BA12CA21A10D20004E4FE2 /* GoogleService-Info.plist */; };
+		63DEE49821A1CC2200344079 /* newsTopicArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DEE49721A1CC2200344079 /* newsTopicArticlesViewController.swift */; };
+		63DEE49A21A1CDE000344079 /* articleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DEE49921A1CDE000344079 /* articleCollectionViewCell.swift */; };
+		63DEE49E21A1FEF600344079 /* proposedArticleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DEE49D21A1FEF600344079 /* proposedArticleObject.swift */; };
+		63F34D1F21B87FF100B480B0 /* bookmarkedTopicCollectionViewCellEMPTY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F34D1E21B87FF100B480B0 /* bookmarkedTopicCollectionViewCellEMPTY.swift */; };
+		63F34D2121B880FC00B480B0 /* profileHistoryCollectionViewCellEMPTY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F34D2021B880FC00B480B0 /* profileHistoryCollectionViewCellEMPTY.swift */; };
+		63F34D2321B8817B00B480B0 /* profileInboxCollectionViewCellEMPTY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F34D2221B8817B00B480B0 /* profileInboxCollectionViewCellEMPTY.swift */; };
+		6948D6FFE225C6A6859DD133 /* Pods_pamftiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44A2262F28537018AE4D994 /* Pods_pamftiUITests.framework */; };
+		DDC75741455324196FB260DB /* Pods_pamftiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9829779DFC235C1AB22F0813 /* Pods_pamftiTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +81,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F326A56E58280DA39D6BE3A /* Pods-pamfti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pamfti.debug.xcconfig"; path = "Target Support Files/Pods-pamfti/Pods-pamfti.debug.xcconfig"; sourceTree = "<group>"; };
+		630FA8A421A1521400442CC3 /* tabNewsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabNewsCollectionViewCell.swift; sourceTree = "<group>"; };
+		630FA8A621A1543300442CC3 /* topicObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topicObject.swift; sourceTree = "<group>"; };
+		630FA8A821A1544200442CC3 /* articleObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = articleObject.swift; sourceTree = "<group>"; };
+		630FD60221CE1EEA0078C30A /* logoV4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoV4.png; path = ../../poliAppFiles/logoV4.png; sourceTree = "<group>"; };
 		632CDF2921A0ADCC004E86B7 /* pamfti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pamfti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		632CDF2C21A0ADCC004E86B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		632CDF2E21A0ADCC004E86B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +99,55 @@
 		632CDF4821A0ADCD004E86B7 /* pamftiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pamftiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		632CDF4C21A0ADCD004E86B7 /* pamftiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pamftiUITests.swift; sourceTree = "<group>"; };
 		632CDF4E21A0ADCD004E86B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		632D1D3A21CA15DA00CFC514 /* createArticleSuggestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createArticleSuggestionViewController.swift; sourceTree = "<group>"; };
+		6336534421A46DEA007E3608 /* articleCommentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = articleCommentCollectionViewCell.swift; sourceTree = "<group>"; };
+		6336534621A471D7007E3608 /* topicChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topicChatViewController.swift; sourceTree = "<group>"; };
+		6336534821A47422007E3608 /* topicChatCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topicChatCollectionViewCell.swift; sourceTree = "<group>"; };
+		6336534A21A4770D007E3608 /* topicChatPostObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topicChatPostObject.swift; sourceTree = "<group>"; };
+		6336534C21A47767007E3608 /* postSpecDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postSpecDetails.swift; sourceTree = "<group>"; };
+		6336534E21A478B5007E3608 /* chatCreatePopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatCreatePopoverViewController.swift; sourceTree = "<group>"; };
+		6336535021A4E2B8007E3608 /* tabCategoryNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabCategoryNewsViewController.swift; sourceTree = "<group>"; };
+		6336535221A4E410007E3608 /* topicCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topicCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		6336535421A541CD007E3608 /* tabHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabHome.swift; sourceTree = "<group>"; };
+		6336535621A60F43007E3608 /* articleCommentNestedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = articleCommentNestedCollectionViewCell.swift; sourceTree = "<group>"; };
+		6336535A21A6213A007E3608 /* profileInboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileInboxViewController.swift; sourceTree = "<group>"; };
+		6336535C21A6214E007E3608 /* profileHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileHistoryViewController.swift; sourceTree = "<group>"; };
+		6336535E21A621CB007E3608 /* profileSettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileSettingsTableViewController.swift; sourceTree = "<group>"; };
+		6336536021A6242A007E3608 /* profileInboxCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileInboxCollectionViewCell.swift; sourceTree = "<group>"; };
+		6336536221A62435007E3608 /* profileHistoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileHistoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		6336536421A624EE007E3608 /* historyArticleObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyArticleObject.swift; sourceTree = "<group>"; };
+		6336536821A6C496007E3608 /* reviewedTopicObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reviewedTopicObject.swift; sourceTree = "<group>"; };
+		6336536A21A6D6B2007E3608 /* reportChatObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reportChatObject.swift; sourceTree = "<group>"; };
+		6336536C21A7BC1F007E3608 /* profileInboxObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileInboxObject.swift; sourceTree = "<group>"; };
+		6342F69B21A3427E001FAD36 /* pamfti.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pamfti.entitlements; sourceTree = "<group>"; };
+		6342F69C21A39303001FAD36 /* forumTopicsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forumTopicsCollectionViewCell.swift; sourceTree = "<group>"; };
+		6342F69E21A3942A001FAD36 /* forumChatObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forumChatObject.swift; sourceTree = "<group>"; };
+		6342F6A021A3C709001FAD36 /* choosePostTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choosePostTypeViewController.swift; sourceTree = "<group>"; };
+		6366146921AF669C000C36E5 /* profileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileCollectionViewCell.swift; sourceTree = "<group>"; };
+		6366146B21AF69A0000C36E5 /* profileBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileBtn.swift; sourceTree = "<group>"; };
+		6388554321A9DC4C00F3A2CD /* webViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewViewController.swift; sourceTree = "<group>"; };
+		6398F89921ABD3360002C4E1 /* Mark Simonson - Proxima Nova Alt Condensed Semibold-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mark Simonson - Proxima Nova Alt Condensed Semibold-webfont.ttf"; path = "../../poliAppFiles/fonts/Mark Simonson - Proxima Nova Alt Condensed Semibold-webfont.ttf"; sourceTree = "<group>"; };
+		6398F89B21ABDAEE0002C4E1 /* bookmarkedTopicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookmarkedTopicsViewController.swift; sourceTree = "<group>"; };
+		6398F89D21AC9E940002C4E1 /* bookmarkedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookmarkedObject.swift; sourceTree = "<group>"; };
+		6398F89F21ACA2BD0002C4E1 /* bookmarkedTopicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookmarkedTopicCollectionViewCell.swift; sourceTree = "<group>"; };
+		63A36D9D21A0B0290026F1BF /* fbLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fbLoginViewController.swift; sourceTree = "<group>"; };
+		63A36D9F21A0B0600026F1BF /* tabNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabNewsViewController.swift; sourceTree = "<group>"; };
+		63A36DA321A0B0780026F1BF /* tabProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabProfileViewController.swift; sourceTree = "<group>"; };
+		63BA12CA21A10D20004E4FE2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Desktop/untitled folder 2/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		63DEE49721A1CC2200344079 /* newsTopicArticlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsTopicArticlesViewController.swift; sourceTree = "<group>"; };
+		63DEE49921A1CDE000344079 /* articleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = articleCollectionViewCell.swift; sourceTree = "<group>"; };
+		63DEE49D21A1FEF600344079 /* proposedArticleObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proposedArticleObject.swift; sourceTree = "<group>"; };
+		63F34D1E21B87FF100B480B0 /* bookmarkedTopicCollectionViewCellEMPTY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookmarkedTopicCollectionViewCellEMPTY.swift; sourceTree = "<group>"; };
+		63F34D2021B880FC00B480B0 /* profileHistoryCollectionViewCellEMPTY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileHistoryCollectionViewCellEMPTY.swift; sourceTree = "<group>"; };
+		63F34D2221B8817B00B480B0 /* profileInboxCollectionViewCellEMPTY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileInboxCollectionViewCellEMPTY.swift; sourceTree = "<group>"; };
+		72F320BBDACA261B5120BA38 /* Pods-pamftiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pamftiUITests.release.xcconfig"; path = "Target Support Files/Pods-pamftiUITests/Pods-pamftiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		82D3CF917A32F5AA1EF63BBA /* Pods-pamftiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pamftiTests.release.xcconfig"; path = "Target Support Files/Pods-pamftiTests/Pods-pamftiTests.release.xcconfig"; sourceTree = "<group>"; };
+		8564A8BAFEC5E8A2A7674E05 /* Pods-pamftiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pamftiUITests.debug.xcconfig"; path = "Target Support Files/Pods-pamftiUITests/Pods-pamftiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9756018B7E7D5625B09F04F1 /* Pods-pamftiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pamftiTests.debug.xcconfig"; path = "Target Support Files/Pods-pamftiTests/Pods-pamftiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9829779DFC235C1AB22F0813 /* Pods_pamftiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pamftiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B44A2262F28537018AE4D994 /* Pods_pamftiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pamftiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26E3E60C8FEACCC3937E8A2 /* Pods-pamfti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pamfti.release.xcconfig"; path = "Target Support Files/Pods-pamfti/Pods-pamfti.release.xcconfig"; sourceTree = "<group>"; };
+		F663395024919BD3C6ABA0EB /* Pods_pamfti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pamfti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A98EC67A697629F43224667 /* Pods_pamfti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC75741455324196FB260DB /* Pods_pamftiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +171,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6948D6FFE225C6A6859DD133 /* Pods_pamftiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +185,8 @@
 				632CDF4021A0ADCD004E86B7 /* pamftiTests */,
 				632CDF4B21A0ADCD004E86B7 /* pamftiUITests */,
 				632CDF2A21A0ADCC004E86B7 /* Products */,
+				F98BBBEA338592D51162223A /* Pods */,
+				F997DBD6BAB726284773DE98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +204,56 @@
 			isa = PBXGroup;
 			children = (
 				632CDF2C21A0ADCC004E86B7 /* AppDelegate.swift */,
-				632CDF2E21A0ADCC004E86B7 /* ViewController.swift */,
-				632CDF3021A0ADCC004E86B7 /* Main.storyboard */,
+				63DEE49921A1CDE000344079 /* articleCollectionViewCell.swift */,
+				6336534421A46DEA007E3608 /* articleCommentCollectionViewCell.swift */,
+				6336535621A60F43007E3608 /* articleCommentNestedCollectionViewCell.swift */,
+				630FA8A821A1544200442CC3 /* articleObject.swift */,
 				632CDF3321A0ADCD004E86B7 /* Assets.xcassets */,
-				632CDF3521A0ADCD004E86B7 /* LaunchScreen.storyboard */,
+				6398F89D21AC9E940002C4E1 /* bookmarkedObject.swift */,
+				6398F89F21ACA2BD0002C4E1 /* bookmarkedTopicCollectionViewCell.swift */,
+				63F34D1E21B87FF100B480B0 /* bookmarkedTopicCollectionViewCellEMPTY.swift */,
+				6398F89B21ABDAEE0002C4E1 /* bookmarkedTopicsViewController.swift */,
+				6336534E21A478B5007E3608 /* chatCreatePopoverViewController.swift */,
+				6342F6A021A3C709001FAD36 /* choosePostTypeViewController.swift */,
+				632D1D3A21CA15DA00CFC514 /* createArticleSuggestionViewController.swift */,
+				63A36D9D21A0B0290026F1BF /* fbLoginViewController.swift */,
+				6342F69E21A3942A001FAD36 /* forumChatObject.swift */,
+				6342F69C21A39303001FAD36 /* forumTopicsCollectionViewCell.swift */,
+				63BA12CA21A10D20004E4FE2 /* GoogleService-Info.plist */,
+				6336536421A624EE007E3608 /* historyArticleObject.swift */,
 				632CDF3821A0ADCD004E86B7 /* Info.plist */,
+				632CDF3521A0ADCD004E86B7 /* LaunchScreen.storyboard */,
+				630FD60221CE1EEA0078C30A /* logoV4.png */,
+				632CDF3021A0ADCC004E86B7 /* Main.storyboard */,
+				6398F89921ABD3360002C4E1 /* Mark Simonson - Proxima Nova Alt Condensed Semibold-webfont.ttf */,
+				63DEE49721A1CC2200344079 /* newsTopicArticlesViewController.swift */,
+				6342F69B21A3427E001FAD36 /* pamfti.entitlements */,
+				6336534C21A47767007E3608 /* postSpecDetails.swift */,
+				6366146B21AF69A0000C36E5 /* profileBtn.swift */,
+				6366146921AF669C000C36E5 /* profileCollectionViewCell.swift */,
+				6336536221A62435007E3608 /* profileHistoryCollectionViewCell.swift */,
+				63F34D2021B880FC00B480B0 /* profileHistoryCollectionViewCellEMPTY.swift */,
+				6336535C21A6214E007E3608 /* profileHistoryViewController.swift */,
+				6336536021A6242A007E3608 /* profileInboxCollectionViewCell.swift */,
+				63F34D2221B8817B00B480B0 /* profileInboxCollectionViewCellEMPTY.swift */,
+				6336536C21A7BC1F007E3608 /* profileInboxObject.swift */,
+				6336535A21A6213A007E3608 /* profileInboxViewController.swift */,
+				6336535E21A621CB007E3608 /* profileSettingsTableViewController.swift */,
+				63DEE49D21A1FEF600344079 /* proposedArticleObject.swift */,
+				6336536A21A6D6B2007E3608 /* reportChatObject.swift */,
+				6336536821A6C496007E3608 /* reviewedTopicObject.swift */,
+				6336535021A4E2B8007E3608 /* tabCategoryNewsViewController.swift */,
+				6336535421A541CD007E3608 /* tabHome.swift */,
+				630FA8A421A1521400442CC3 /* tabNewsCollectionViewCell.swift */,
+				63A36D9F21A0B0600026F1BF /* tabNewsViewController.swift */,
+				63A36DA321A0B0780026F1BF /* tabProfileViewController.swift */,
+				6336535221A4E410007E3608 /* topicCategoryCollectionViewCell.swift */,
+				6336534821A47422007E3608 /* topicChatCollectionViewCell.swift */,
+				6336534A21A4770D007E3608 /* topicChatPostObject.swift */,
+				6336534621A471D7007E3608 /* topicChatViewController.swift */,
+				630FA8A621A1543300442CC3 /* topicObject.swift */,
+				632CDF2E21A0ADCC004E86B7 /* ViewController.swift */,
+				6388554321A9DC4C00F3A2CD /* webViewViewController.swift */,
 			);
 			path = pamfti;
 			sourceTree = "<group>";
@@ -125,6 +276,29 @@
 			path = pamftiUITests;
 			sourceTree = "<group>";
 		};
+		F98BBBEA338592D51162223A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F326A56E58280DA39D6BE3A /* Pods-pamfti.debug.xcconfig */,
+				D26E3E60C8FEACCC3937E8A2 /* Pods-pamfti.release.xcconfig */,
+				9756018B7E7D5625B09F04F1 /* Pods-pamftiTests.debug.xcconfig */,
+				82D3CF917A32F5AA1EF63BBA /* Pods-pamftiTests.release.xcconfig */,
+				8564A8BAFEC5E8A2A7674E05 /* Pods-pamftiUITests.debug.xcconfig */,
+				72F320BBDACA261B5120BA38 /* Pods-pamftiUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F997DBD6BAB726284773DE98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F663395024919BD3C6ABA0EB /* Pods_pamfti.framework */,
+				9829779DFC235C1AB22F0813 /* Pods_pamftiTests.framework */,
+				B44A2262F28537018AE4D994 /* Pods_pamftiUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +306,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 632CDF5121A0ADCD004E86B7 /* Build configuration list for PBXNativeTarget "pamfti" */;
 			buildPhases = (
+				EA94D2C3E74922BCBA9FF15D /* [CP] Check Pods Manifest.lock */,
 				632CDF2521A0ADCC004E86B7 /* Sources */,
 				632CDF2621A0ADCC004E86B7 /* Frameworks */,
 				632CDF2721A0ADCC004E86B7 /* Resources */,
+				1B632A6BF47C1D62B45BDA9E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +325,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 632CDF5421A0ADCD004E86B7 /* Build configuration list for PBXNativeTarget "pamftiTests" */;
 			buildPhases = (
+				FF15B60540144086E9824D0B /* [CP] Check Pods Manifest.lock */,
 				632CDF3921A0ADCD004E86B7 /* Sources */,
 				632CDF3A21A0ADCD004E86B7 /* Frameworks */,
 				632CDF3B21A0ADCD004E86B7 /* Resources */,
@@ -167,6 +344,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 632CDF5721A0ADCD004E86B7 /* Build configuration list for PBXNativeTarget "pamftiUITests" */;
 			buildPhases = (
+				B0E64DCD390D57524063CCEC /* [CP] Check Pods Manifest.lock */,
 				632CDF4421A0ADCD004E86B7 /* Sources */,
 				632CDF4521A0ADCD004E86B7 /* Frameworks */,
 				632CDF4621A0ADCD004E86B7 /* Resources */,
@@ -193,6 +371,11 @@
 				TargetAttributes = {
 					632CDF2821A0ADCC004E86B7 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 					632CDF3C21A0ADCD004E86B7 = {
 						CreatedOnToolsVersion = 10.0;
@@ -230,7 +413,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				632CDF3721A0ADCD004E86B7 /* LaunchScreen.storyboard in Resources */,
+				63BA12CB21A10D20004E4FE2 /* GoogleService-Info.plist in Resources */,
+				630FD60321CE1EEA0078C30A /* logoV4.png in Resources */,
 				632CDF3421A0ADCD004E86B7 /* Assets.xcassets in Resources */,
+				6398F89A21ABD3360002C4E1 /* Mark Simonson - Proxima Nova Alt Condensed Semibold-webfont.ttf in Resources */,
 				632CDF3221A0ADCC004E86B7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +437,179 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B632A6BF47C1D62B45BDA9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pamfti/Pods-pamfti-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pamfti/Pods-pamfti-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0E64DCD390D57524063CCEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pamftiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA94D2C3E74922BCBA9FF15D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pamfti-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF15B60540144086E9824D0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pamftiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		632CDF2521A0ADCC004E86B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6336534721A471D7007E3608 /* topicChatViewController.swift in Sources */,
+				6336536921A6C496007E3608 /* reviewedTopicObject.swift in Sources */,
+				6336535121A4E2B8007E3608 /* tabCategoryNewsViewController.swift in Sources */,
+				63F34D1F21B87FF100B480B0 /* bookmarkedTopicCollectionViewCellEMPTY.swift in Sources */,
+				6336536521A624EE007E3608 /* historyArticleObject.swift in Sources */,
+				6336536B21A6D6B2007E3608 /* reportChatObject.swift in Sources */,
+				6336535B21A6213A007E3608 /* profileInboxViewController.swift in Sources */,
+				6336536121A6242A007E3608 /* profileInboxCollectionViewCell.swift in Sources */,
+				6398F89E21AC9E940002C4E1 /* bookmarkedObject.swift in Sources */,
 				632CDF2F21A0ADCC004E86B7 /* ViewController.swift in Sources */,
+				6342F69D21A39303001FAD36 /* forumTopicsCollectionViewCell.swift in Sources */,
+				6336535F21A621CB007E3608 /* profileSettingsTableViewController.swift in Sources */,
+				6336535D21A6214E007E3608 /* profileHistoryViewController.swift in Sources */,
+				630FA8A921A1544200442CC3 /* articleObject.swift in Sources */,
+				63DEE49821A1CC2200344079 /* newsTopicArticlesViewController.swift in Sources */,
+				630FA8A521A1521400442CC3 /* tabNewsCollectionViewCell.swift in Sources */,
+				6388554421A9DC4C00F3A2CD /* webViewViewController.swift in Sources */,
+				6336536321A62435007E3608 /* profileHistoryCollectionViewCell.swift in Sources */,
+				630FA8A721A1543300442CC3 /* topicObject.swift in Sources */,
+				63F34D2121B880FC00B480B0 /* profileHistoryCollectionViewCellEMPTY.swift in Sources */,
+				6336534B21A4770D007E3608 /* topicChatPostObject.swift in Sources */,
+				63DEE49E21A1FEF600344079 /* proposedArticleObject.swift in Sources */,
+				63A36DA021A0B0600026F1BF /* tabNewsViewController.swift in Sources */,
+				63A36DA421A0B0780026F1BF /* tabProfileViewController.swift in Sources */,
+				6336536D21A7BC1F007E3608 /* profileInboxObject.swift in Sources */,
+				6336535321A4E410007E3608 /* topicCategoryCollectionViewCell.swift in Sources */,
+				6366146A21AF669C000C36E5 /* profileCollectionViewCell.swift in Sources */,
+				63F34D2321B8817B00B480B0 /* profileInboxCollectionViewCellEMPTY.swift in Sources */,
+				6336534F21A478B5007E3608 /* chatCreatePopoverViewController.swift in Sources */,
+				632D1D3B21CA15DA00CFC514 /* createArticleSuggestionViewController.swift in Sources */,
+				6366146C21AF69A0000C36E5 /* profileBtn.swift in Sources */,
+				6398F8A021ACA2BD0002C4E1 /* bookmarkedTopicCollectionViewCell.swift in Sources */,
 				632CDF2D21A0ADCC004E86B7 /* AppDelegate.swift in Sources */,
+				6342F69F21A3942A001FAD36 /* forumChatObject.swift in Sources */,
+				6336535721A60F43007E3608 /* articleCommentNestedCollectionViewCell.swift in Sources */,
+				63A36D9E21A0B0290026F1BF /* fbLoginViewController.swift in Sources */,
+				6336534D21A47767007E3608 /* postSpecDetails.swift in Sources */,
+				6342F6A121A3C709001FAD36 /* choosePostTypeViewController.swift in Sources */,
+				63DEE49A21A1CDE000344079 /* articleCollectionViewCell.swift in Sources */,
+				6336534921A47422007E3608 /* topicChatCollectionViewCell.swift in Sources */,
+				6336535521A541CD007E3608 /* tabHome.swift in Sources */,
+				6398F89C21ABDAEE0002C4E1 /* bookmarkedTopicsViewController.swift in Sources */,
+				6336534521A46DEA007E3608 /* articleCommentCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +719,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -421,6 +774,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -430,6 +784,7 @@
 		};
 		632CDF5221A0ADCD004E86B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F326A56E58280DA39D6BE3A /* Pods-pamfti.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,12 +797,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = waive.pamfti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		632CDF5321A0ADCD004E86B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D26E3E60C8FEACCC3937E8A2 /* Pods-pamfti.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -460,12 +816,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = waive.pamfti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		632CDF5521A0ADCD004E86B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9756018B7E7D5625B09F04F1 /* Pods-pamftiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +844,7 @@
 		};
 		632CDF5621A0ADCD004E86B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82D3CF917A32F5AA1EF63BBA /* Pods-pamftiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +866,7 @@
 		};
 		632CDF5821A0ADCD004E86B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8564A8BAFEC5E8A2A7674E05 /* Pods-pamftiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +887,7 @@
 		};
 		632CDF5921A0ADCD004E86B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72F320BBDACA261B5120BA38 /* Pods-pamftiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

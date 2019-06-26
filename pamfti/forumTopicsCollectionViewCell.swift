@@ -10,4 +10,6 @@ import UIKit
 
 class forumTopicsCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var lblTitle: UILabel!
+    @IBOutlet weak var lblMessageCount: UILabel!
 }

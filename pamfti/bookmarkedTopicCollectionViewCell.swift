@@ -10,4 +10,8 @@ import UIKit
 
 class bookmarkedTopicCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var lblDate: UILabel!
+    @IBOutlet weak var lblTitle: UILabel!
+    @IBOutlet weak var imgImg: UIImageView!
+    @IBOutlet weak var btnDropBookmark: UIButton!
 }

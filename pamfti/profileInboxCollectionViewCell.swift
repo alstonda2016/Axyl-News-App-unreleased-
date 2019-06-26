@@ -9,5 +9,10 @@
 import UIKit
 
 class profileInboxCollectionViewCell: UICollectionViewCell {
+    @IBOutlet weak var lblDate: UILabel!
     
+    @IBOutlet weak var lblUpPoints: UILabel!
+    @IBOutlet weak var lblDownPoints: UILabel!
+    @IBOutlet weak var lblInbox: UILabel!
+    @IBOutlet weak var lblTotalPoints: UILabel!
 }

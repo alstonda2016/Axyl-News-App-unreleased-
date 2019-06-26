@@ -10,4 +10,10 @@ import UIKit
 
 class profileHistoryCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var imgImg: UIImageView!
+    
+    @IBOutlet weak var lblUserHistoryDate: UILabel!
+    
+    @IBOutlet weak var lblHeadline: UILabel!
+    
 }

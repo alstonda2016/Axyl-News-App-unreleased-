@@ -9,5 +9,8 @@
 import UIKit
 
 class topicCategoryCollectionViewCell: UICollectionViewCell {
+    @IBOutlet weak var imgImg: UIImageView!
+    @IBOutlet weak var lblTopicTitle: UILabel!
+    @IBOutlet weak var lblTopicTime: UILabel!
     
 }

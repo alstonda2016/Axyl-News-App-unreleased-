@@ -9,5 +9,8 @@
 import UIKit
 
 class tabNewsCollectionViewCell: UICollectionViewCell {
+    @IBOutlet weak var txtTitle: UILabel!
     
+    @IBOutlet weak var imgImg: UIImageView!
+    @IBOutlet weak var lblTopicTime: UILabel!
 }
